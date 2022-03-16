@@ -5,6 +5,8 @@ var router = express.Router();
 router.post('/login/auth', function (req, res) {
   var u = req.body.username;
   var p = req.body.password;
+  
+  
 
   logger.error('Tried to login attempt from user = ' + u);
 
